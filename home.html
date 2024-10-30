@@ -56,6 +56,11 @@
                 left: -300,
                 behavior: 'smooth'
             });
+    
+            // Garantir que não haja overscroll e que o botão funcione repetidamente
+            if (carousel.scrollLeft <= 0) {
+                carousel.scrollLeft = carousel.scrollWidth;
+            }
         }
     
         function scrollRight() {
@@ -64,6 +69,11 @@
                 left: 300,
                 behavior: 'smooth'
             });
+    
+            // Verifica se chegou ao final e volta ao início
+            if (carousel.scrollLeft + carousel.clientWidth >= carousel.scrollWidth) {
+                carousel.scrollLeft = 0;
+            }
         }
     </script>
     
