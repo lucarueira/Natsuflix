@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Streaming</title>
+    <link rel="stylesheet" href="home-styles.css">
+</head>
+<body>
+    <header class="navbar">
+        <h1 class="logo">Natsuflix</h1>
+        <a href="roleta.html" class="roleta-button">Roleta</a>
+    </header>
+
+    <main class="home-section">
+        <h2 class="anime-title">-</h2>
+        <div class="cover">
+            <img src="https://cdn.ome.lt/QH7gGnRw0TGXAHDnRKzsDi6p4W4=/970x360/smart/uploads/conteudo/fotos/capture_014_18122017_133320.jpg" alt="Capa dos Animes">
+        </div>
+        <div class="anime-carousel">
+            <div class="anime-item">
+                <a href="anime1.html"><img src="https://media.fstatic.com/Fdr9PUJhZLsa9-3Fl9NdOLRIrEw=/322x478/smart/filters:format(webp)/media/movies/covers/2015/10/owari-no-seraph_t114656.png" alt="Anime 1"></a>
+            </div>
+            <div class="anime-item">
+                <a href="anime2.html"><img src="https://animenew.com.br/wp-content/uploads/2024/04/Katekyo-Hitman-Reborn-jpg.webp" alt="Anime 2"></a>
+            </div>
+            <div class="anime-item">
+                <a href="anime3.html"><img src="https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=480,height=720/catalog/crunchyroll/ff06631478e5344b467111c7aa85ff88.jpe" alt="Anime 3"></a>
+            </div>
+            <div class="anime-item">
+                <a href="anime4.html"><img src="https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=480,height=720/catalog/crunchyroll/5d5e5f5263126fcaa27c63c5306dbdcc.jpg" alt="Anime 4"></a>
+            </div>
+            <div class="anime-item">
+                <a href="anime5.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHeh3u0B9dl5QpvyiwH92egh0wSovCFD5rThC2A4VoclGBGXgT-l7kHxRUYJ0aiJyJh5k&usqp=CAU" alt="Anime 5"></a>
+            </div>
+            <div class="anime-item">
+                <a href="anime6.html"><img src="https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=480,height=720/catalog/crunchyroll/7d31dfaf49397a8cc1e490ccedea04e2.jpe" alt="Anime 6"></a>
+            </div>
+            <div class="anime-item">
+                <a href="anime7.html"><img src="https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=480,height=720/catalog/crunchyroll/0d05002119251179e11dac9cadeaf155.jpg" alt="Anime 7"></a>
+            </div>
+        </div>
+    </main>
+
+    <script src="home-script.js"></script>
+</body>
+</html>
+
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 24px;
+    color: #e50914;
+}
+
+.roleta-button {
+    padding: 10px 15px;
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.roleta-button:hover {
+    background-color: #f40612;
+}
+
+.home-section {
+    margin-top: 80px; /* Espaço para a barra de navegação fixa */
+    text-align: center;
+}
+
+.anime-title {
+    font-size: 24px;
+    margin-top: 60px; /* Espaço extra abaixo do título */
+    color: #fff;
+}
+
+.cover {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.cover img {
+    width: 90%; /* Capa ocupa 90% da largura da tela */
+    max-width: 800px; /* Largura máxima */
+    border-radius: 10px;
+}
+
+.anime-carousel {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+    padding: 20px;
+    scroll-snap-type: x mandatory; /* Ativa o snap horizontal */
+    -webkit-overflow-scrolling: touch; /* Suporte para rolagem suave no mobile */
+    scrollbar-width: thin; /* Reduz a largura da barra de rolagem */
+}
+
+.anime-item {
+    flex: none;
+    width: 250px; /* Define a largura de cada item */
+    scroll-snap-align: start;
+}
+
+.anime-item img {
+    width: 100%; /* Imagem ocupa 100% da largura do item */
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.anime-item img:hover {
+    transform: scale(1.05); /* Aumenta a imagem ao passar o mouse */
+}
+
+/* Oculta a barra de rolagem em alguns navegadores */
+.anime-carousel::-webkit-scrollbar {
+    display: none;
+}

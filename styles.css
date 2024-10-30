@@ -1,51 +1,80 @@
-body {
-    font-family: Arial, sans-serif;
+* {
     margin: 0;
     padding: 0;
-    background-color: #e8f5e9;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
-header {
-    background-color: #4caf50;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-}
-
-.container {
+body {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
-    width: 80%;
-    margin: 20px auto;
+    align-items: center;
+    height: 100vh;
 }
 
-.video {
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    transition: transform 0.3s;
+/* Fundo específico para a página de login */
+body.login-background {
+    background-image: url('login-background.jpg'); /* Caminho da imagem de fundo da página de login */
+    background-size: cover;
+    background-position: center;
+}
+
+
+.login-box {
+    background-color: rgba(255, 255, 255, 0.8);
     width: 300px;
-    text-align: center; /* Centraliza o texto dentro do vídeo */
-}
-
-.video:hover {
-    transform: scale(1.05);
-}
-
-img {
-    width: 100%;
-    border-radius: 8px;
-}
-
-footer {
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
-    padding: 10px 0;
-    background-color: #4caf50;
-    color: white;
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input-box {
     position: relative;
-    bottom: 0;
+    margin-bottom: 20px;
+}
+
+.input-box input {
     width: 100%;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.input-box label {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 0 5px;
+    color: #888;
+    font-size: 14px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#message {
+    color: red;
+    margin-top: 10px;
+    font-size: 14px;
 }

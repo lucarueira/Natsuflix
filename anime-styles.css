@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.logo {
+    font-size: 20px;
+    color: #e50914;
+}
+
+.back-button {
+    padding: 8px 12px;
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.cover-image {
+    text-align: center;
+    margin-top: 60px; /* Espaço abaixo da barra de navegação */
+}
+
+.cover-image img {
+    width: 80%; /* Ajuste o tamanho da capa do anime */
+    border-radius: 10px;
+}
+
+.episodes-container {
+    background-color: rgba(255, 255, 255, 0.1); /* Fundo cinza transparente */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px; /* Largura máxima da caixa */
+    margin: 20px auto; /* Centraliza a caixa */
+    text-align: center; /* Centraliza o texto */
+}
+
+.anime-title {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.episodes-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colunas para os episódios */
+    gap: 10px; /* Espaçamento entre os episódios */
+    margin-bottom: 20px;
+}
+
+.episode-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    background-color: #222;
+}
+
+.episode-item:hover {
+    transform: scale(1.05); /* Animação de escala ao passar o mouse */
+}
+
+.episode-image {
+    width: 100%; /* Ajusta a largura da imagem ao contêiner */
+    border-radius: 10px 10px 0 0;
+}
+
+.episode-number {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+
+.control-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+}

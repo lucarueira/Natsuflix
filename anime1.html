@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animes</title>
+    <link rel="stylesheet" href="anime-styles.css">
+    <script>
+        window.onload = function() {
+            const animeLinks = JSON.parse(localStorage.getItem('animeLinks'));
+            const episodesContainer = document.getElementById('episodes');
+
+            if (animeLinks) {
+                animeLinks.forEach((anime, index) => {
+                    const episodeDiv = document.createElement('div');
+                    episodeDiv.classList.add('episode-item');
+                    
+                    episodeDiv.innerHTML = `
+                        <a href="${anime.videoLink}" target="_blank">
+                            <img src="${anime.imageLink}" alt="Episódio ${index + 1}" class="episode-image">
+                            <span class="episode-number">Episódio ${index + 1}</span>
+                        </a>
+                    `;
+                    episodesContainer.appendChild(episodeDiv);
+                });
+            }
+        }
+    </script>
+</head>
+<body>
+    <header class="navbar">
+        <h1 class="logo">Animes</h1>
+        <a href="home.html" class="back-button">Voltar</a>
+    </header>
+
+    <main>
+        <div class="cover-image">
+            <img src="capa-anime.jpg" alt="Capa do Anime">
+        </div>
+        <div class="episodes-container">
+            <h2 class="anime-title">Título do Anime</h2>
+            <div id="episodes" class="episodes-list">
+                <!-- Os episódios serão gerados aqui pelo JavaScript -->
+            </div>
+            <a href="controle.html" class="control-button">Controle</a>
+        </div>
+    </main>
+</body>
+</html>
