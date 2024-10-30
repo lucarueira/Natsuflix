@@ -1,6 +1,6 @@
 // Simulando um banco de dados com logins e senhas pré-definidos
 const users = [
-    { username: "usuario1", password: "senha1" },
+    { username: "natsumi", password: "1234" },
     { username: "usuario2", password: "senha2" },
     { username: "usuario3", password: "senha3" }
 ];
