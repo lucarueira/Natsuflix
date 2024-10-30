@@ -29,22 +29,31 @@ function registerUser() {
     }, 2000);
 }
 
-// Função de login com redirecionamento para home.html
+// Função de login com redirecionamento específico para admin e outros usuários
 function login() {
     const username = document.getElementById('username').value;
     const password = document.getElementById('password').value;
     const message = document.getElementById('message');
 
-    // Obtém a lista de usuários armazenada no localStorage
+    // Verificação específica para o usuário admin
+    if (username === "admin" && password === "admin") {
+        message.style.color = "green";
+        message.textContent = "Login de administrador bem-sucedido!";
+        setTimeout(() => {
+            window.location.href = 'administer.html'; // Redireciona para a página de administração
+        }, 1000);
+        return; // Finaliza a função para evitar verificações adicionais
+    }
+
+    // Caso não seja admin, verifica os usuários no localStorage
     const users = JSON.parse(localStorage.getItem('users')) || [];
-    // Verifica se o usuário existe e se a senha está correta
     const user = users.find(user => user.username === username && user.password === password);
 
     if (user) {
         message.style.color = "green";
         message.textContent = "Login bem-sucedido!";
         setTimeout(() => {
-            window.location.href = 'home.html'; // Redireciona para a página inicial
+            window.location.href = 'home.html'; // Redireciona para a página inicial padrão
         }, 1000);
     } else {
         message.style.color = "red";

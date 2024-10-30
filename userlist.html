@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Usuários</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="login-background">
+    <div class="login-box">
+        <h2>Lista de Usuários Cadastrados</h2>
+        <div id="userList"></div>
+        <p><a href="index.html">Voltar para o Login</a></p> <!-- Link para voltar ao Login -->
+    </div>
+
+    <script>
+        // Função para exibir todos os usuários cadastrados
+        function displayUsers() {
+            const userListDiv = document.getElementById('userList');
+            const users = JSON.parse(localStorage.getItem('users')) || [];
+            
+            if (users.length === 0) {
+                userListDiv.innerHTML = "<p>Nenhum usuário cadastrado.</p>";
+                return;
+            }
+
+            let userListHtml = "<ul>";
+            users.forEach(user => {
+                userListHtml += `<li>Usuário: ${user.username}, Senha: ${user.password}</li>`;
+            });
+            userListHtml += "</ul>";
+            userListDiv.innerHTML = userListHtml;
+        }
+
+        // Chama a função ao carregar a página
+        window.onload = displayUsers;
+    </script>
+</body>
+</html>
