@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Séries</title>
+    <link rel="stylesheet" href="controlstyles.css">
+</head>
+<body class="login-background">
+    <div class="login-box">
+        <h2>Controle de Séries</h2>
+        <p>Crie uma nova página de série estilo Netflix</p>
+        
+        <form id="createPageForm">
+            <div class="input-box">
+                <label for="pageName">Nome da Página:</label>
+                <input type="text" id="pageName" required>
+            </div>
+            <div class="input-box">
+                <label for="episodeCount">Quantidade de Episódios:</label>
+                <input type="number" id="episodeCount" min="1" required>
+            </div>
+            <button type="button" onclick="createSeriesPage()">Criar Página</button>
+        </form>
+        
+        <p id="message"></p> <!-- Mensagem de feedback -->
+        
+        <h3>Páginas Criadas</h3>
+        <ul id="pageList"></ul> <!-- Lista para exibir as páginas criadas -->
+    </div>
+
+    <script src="controlscript.js"></script> <!-- Importa o script externo -->
+</body>
+</html>
