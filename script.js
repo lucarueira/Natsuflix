@@ -20,7 +20,7 @@ document.getElementById('loginForm').addEventListener('submit', function (e) {
 // Lista de URLs das imagens de fundo
 const backgroundImages = [
     'https://images.alphacoders.com/101/thumb-1920-1010799.png',
-    'https://wallpapercg.com/download/lelouch-lamperouge-5782x3816-11234.jpg',
+    'https://i.pinimg.com/originals/29/e7/a9/29e7a9c0aac67dafb758cf35b20c8bef.jpg',
     'https://wallpapers.com/images/hd/blue-themed-yuyu-hakusho-lb88p89u45oz29ks.jpg',
     'https://images8.alphacoders.com/136/thumb-1920-1369308.png'
 ];
