@@ -10,11 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url('https://images5.alphacoders.com/824/824641.jpg'); /* Substitua pela URL da sua imagem de fundo */
-    background-size: cover;
-    background-position: center;
-    /* Aplica uma camada de cor sobre a imagem de fundo */
-    position: relative;
+    /* Removemos a definição de imagem de fundo aqui */
 }
 
 body::before {
@@ -24,7 +20,7 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.6); /* Cor de sobreposição para opacidade */
+    background-color: rgba(0, 0, 0, 0.6); /* Camada escura para opacidade */
     z-index: 1;
 }
 
