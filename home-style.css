@@ -1,0 +1,109 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #141414;
+    color: rgb(15, 221, 32);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #222;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.profile {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 40px; /* Ajuste o tamanho conforme necessário */
+    height: 40px; /* Ajuste o tamanho conforme necessário */
+    border-radius: 50%;
+    margin-right: 10px; /* Espaço entre a foto e o nome */
+}
+
+.carousel {
+    position: relative;
+    height: 400px; /* Altura fixa para o carrossel */
+    background-color: #555; /* Cor de fundo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Esconde partes da imagem que saem do contêiner */
+}
+
+.featured {
+    position: relative;
+    width: 100%; /* Ajuste conforme necessário */
+    height: 100%; /* Ajuste conforme necessário */
+    overflow: hidden; /* Esconde partes que saem do contêiner */
+}
+
+.featured-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out; /* Transição de opacidade */
+}
+
+.featured-img.visible {
+    opacity: 1; /* Mostra a imagem */
+}
+
+.movie-section {
+    padding: 20px;
+}
+
+.movie-list {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.movie {
+    flex: 0 0 auto;
+}
+
+.banner {
+    width: 200px; /* Ajuste conforme necessário */
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.banner:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+}
+
+.roulette-button {
+    display: inline-block; /* Faz o link se comportar como um botão */
+    background-color: #e50914;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none; /* Remove o sublinhado do link */
+}
+
+.roulette-button:hover {
+    background-color: #f40612;
+}
