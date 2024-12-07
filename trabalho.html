@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interpolação de Lagrange</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        p {
+            text-align: justify;
+        }
+        table {
+            width: 50%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+    <h1>Interpolação de Lagrange</h1>
+    <p>
+        Este documento apresenta o cálculo do polinômio interpolador de Lagrange para modelar o calor específico da água em função da temperatura. O objetivo é determinar o valor do calor específico da água a 27,5 graus Celsius, utilizando os dados fornecidos na tabela a seguir:
+    </p>
+    <table>
+        <tr>
+            <th>Temperatura (°C)</th>
+            <th>Calor Específico</th>
+        </tr>
+        <tr>
+            <td>20</td>
+            <td>0,99907</td>
+        </tr>
+        <tr>
+            <td>25</td>
+            <td>0,99852</td>
+        </tr>
+        <tr>
+            <td>30</td>
+            <td>0,99826</td>
+        </tr>
+        <tr>
+            <td>35</td>
+            <td>0,99818</td>
+        </tr>
+    </table>
+    <p>
+        Utilizando a fórmula de Lagrange, calculamos os polinômios básicos \(L_i(x)\) para \(x = 27,5\):
+    </p>
+    <p>
+        <b>Cálculo de \(L_0(27,5)\):</b><br>
+        \[
+        L_0(27,5) = \frac{(27,5 - 25)(27,5 - 30)(27,5 - 35)}{(20 - 25)(20 - 30)(20 - 35)}
+        \]
+        \[
+        L_0(27,5) = \frac{(2,5)(-2,5)(-7,5)}{(-5)(-10)(-15)} = \frac{-46,875}{750} = -0,0625.
+        \]
+    </p>
+    <p>
+        <b>Cálculo de \(L_1(27,5)\):</b><br>
+        \[
+        L_1(27,5) = \frac{(27,5 - 20)(27,5 - 30)(27,5 - 35)}{(25 - 20)(25 - 30)(25 - 35)}
+        \]
+        \[
+        L_1(27,5) = \frac{(7,5)(-2,5)(-7,5)}{(5)(-5)(-10)} = \frac{140,625}{250} = 0,5625.
+        \]
+    </p>
+    <p>
+        <b>Cálculo de \(L_2(27,5)\):</b><br>
+        \[
+        L_2(27,5) = \frac{(27,5 - 20)(27,5 - 25)(27,5 - 35)}{(30 - 20)(30 - 25)(30 - 35)}
+        \]
+        \[
+        L_2(27,5) = \frac{(7,5)(2,5)(-7,5)}{(10)(5)(-5)} = \frac{-140,625}{-250} = 0,5625.
+        \]
+    </p>
+    <p>
+        <b>Cálculo de \(L_3(27,5)\):</b><br>
+        \[
+        L_3(27,5) = \frac{(27,5 - 20)(27,5 - 25)(27,5 - 30)}{(35 - 20)(35 - 25)(35 - 30)}
+        \]
+        \[
+        L_3(27,5) = \frac{(7,5)(2,5)(-2,5)}{(15)(10)(5)} = \frac{-46,875}{750} = -0,0625.
+        \]
+    </p>
+    <p>
+        Substituímos no polinômio interpolador:
+        \[
+        P(27,5) = (0,99907 \cdot -0,0625) + (0,99852 \cdot 0,5625) + (0,99826 \cdot 0,5625) + (0,99818 \cdot -0,0625).
+        \]
+    </p>
+    <p>
+        Efetuando os cálculos:
+        \[
+        P(27,5) = -0,06244 + 0,56188 + 0,56179 - 0,06239 = 0,99836.
+        \]
+    </p>
+    <p>
+        Portanto, o calor específico da água a 27,5 graus Celsius é aproximadamente:
+    </p>
+    <h2 style="text-align: center;">0,99836</h2>
+</body>
+</html>
