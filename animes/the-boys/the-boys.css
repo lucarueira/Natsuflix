@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #12dd12;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1e1e1e;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.banner {
+    height: 400px; /* Altura fixa do banner */
+    overflow: hidden; /* Esconde partes da imagem que saem do contêiner */
+    position: relative; /* Para posicionamento da imagem interna */
+}
+
+.banner-image {
+    width: 100%; /* Ajusta a largura da imagem para preencher o contêiner */
+    height: 100%; /* Ajusta a altura da imagem para preencher o contêiner */
+    object-fit: cover; /* Faz com que a imagem preencha o espaço mantendo a proporção */
+    position: absolute; /* Faz com que a imagem fique no fundo */
+    top: 0;
+    left: 0;
+    z-index: 0; /* Coloca a imagem atrás do texto */
+    opacity: 0.7; /* Ajuste o valor de opacidade (0.0 a 1.0) */
+}
+
+.banner-content {
+    position: absolute; /* Para sobrepor a imagem de fundo */
+    text-align: center;
+    color: white;
+    z-index: 1; /* Coloca o texto acima da imagem */
+}
+h1 {
+    font-size: 48px;
+}
+
+.episodios-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.episodio {
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+    width: 150px; /* Defina a largura do contêiner do episódio */
+    border-radius: 10px; /* Bordas arredondadas */
+    overflow: hidden; /* Para evitar que a imagem saia do contêiner */
+    background-color: rgba(30, 30, 30, 0.8); /* Fundo levemente transparente */
+    transition: transform 0.2s; /* Transição suave para hover */
+}
+
+.episodio img {
+    width: 100%; /* Imagem ocupa 100% do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.episodio:hover {
+    transform: scale(1.05); /* Aumenta ligeiramente o contêiner ao passar o mouse */
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e1e1e;
+}
