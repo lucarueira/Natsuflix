@@ -1,0 +1,81 @@
+/* Estilo geral */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkwKK5fH1AwC7RFKwUQRN2efUy2QbtEyIlMnaA3KpUBrBhEa_bjvUD8ZRsqcesYRoomJLt-MIE07GpTj7twtqZYsWkzEJknqckFodeT1AHbQkVY2swd-Z_Ss99SdUZ90f1le-TIw9fA_HiqgHxFqqpfuvMUjG2S0u7oq9Vh_WWNNHpelF_cgrMRmH4lA/s3840/smb-movie-mario-kart-3840x2160-1.jpg'); /* Substitua pelo link da sua imagem */
+    background-size: cover;
+    background-size: cover;
+    color: white;
+}
+
+/* Capa */
+.capa {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.capa h1 {
+    font-size: 3rem;
+    font-family: 'Courier New', Courier, monospace; /* Fonte estilizada */
+    text-shadow: 2px 2px 5px black;
+}
+
+.capa p {
+    font-size: 1.2rem;
+}
+
+/* Estilo das tabelas */
+.tabelas {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.tabela {
+    flex: 0 1 calc(33.333% - 20px); /* Três tabelas por linha */
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    padding: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* Zoom no hover */
+.tabela:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilo do título da tabela */
+.tabela h2 {
+    margin: 0 0 10px 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold
+}
+
+/* Estilo da tabela de dados */
+.tabela table {
+    width: 100%;
+    border-collapse: collapse;
+    color: rgb(255, 255, 255);
+    font-weight: bold
+}
+
+.tabela table, .tabela th, .tabela td {
+    border: 1px solid rgb(8, 8, 8);
+}
+
+.tabela th, .tabela td {
+    padding: 8px;
+    text-align: center;
+}
