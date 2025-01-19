@@ -21,7 +21,16 @@ const episodios = [
     { title: "Episódio 19", link: "https://drive.google.com/file/d/1HBMsTI8LpIJL3iRugDvs_wCbLGP2La9W/preview", img: "https://noticias.animeonegai.com/wp-content/uploads/2022/09/Katekyo-Hitman-Reborn-anime-min-2.jpg" },
     { title: "Episódio 20", link: "https://drive.google.com/file/d/1mF5Anguq4y9jg6rkKShUAPqQ0vnQVwEj/preview", img: "https://noticias.animeonegai.com/wp-content/uploads/2022/09/Katekyo-Hitman-Reborn-anime-min-2.jpg" },
     { title: "Episódio 21", link: "https://drive.google.com/file/d/1dDaVYFyNqGTLeDBJHk9qDrUc9j0VAASV/preview", img: "https://noticias.animeonegai.com/wp-content/uploads/2022/09/Katekyo-Hitman-Reborn-anime-min-2.jpg" },
- 
+    { title: "Episódio 22", link: "https://drive.google.com/file/d/1yx0VzzwfSqPrh6NBd-dB1JpU_6bupd9d/preview", img: "https://noticias.animeonegai.com/wp-content/uploads/2022/09/Katekyo-Hitman-Reborn-anime-min-2.jpg" },
+    { title: "Episódio 23", link: "https://drive.google.com/file/d/1J-KETTkdwmuRkOTooMugUm10dYy2lWB7/preview", img: "https://noticias.animeonegai.com/wp-content/uploads/2022/09/Katekyo-Hitman-Reborn-anime-min-2.jpg" },
+    { title: "Episódio 24", link: "https://drive.google.com/file/d/1Iz7kiEGIccDu0NQO_DxPao5lR1jSsMeY/preview", img: "https://noticias.animeonegai.com/wp-content/uploads/2022/09/Katekyo-Hitman-Reborn-anime-min-2.jpg" },
+    { title: "Episódio 25", link: "https://drive.google.com/file/d/1valdZhLtbZT_-9_ChpkhnIeBk94DfkTm/preview", img: "https://noticias.animeonegai.com/wp-content/uploads/2022/09/Katekyo-Hitman-Reborn-anime-min-2.jpg" },
+    { title: "Episódio 26", link: "https://drive.google.com/file/d/1spYNgPJejqtVR8gbLslvyr8OKoeWCLUt/preview", img: "https://noticias.animeonegai.com/wp-content/uploads/2022/09/Katekyo-Hitman-Reborn-anime-min-2.jpg" },
+    { title: "Episódio 27", link: "https://drive.google.com/file/d/1-vgSpITHHKcWco8vdIOPLKRjw-Ns9H72/preview", img: "https://noticias.animeonegai.com/wp-content/uploads/2022/09/Katekyo-Hitman-Reborn-anime-min-2.jpg" },
+    { title: "Episódio 28", link: "https://drive.google.com/file/d/1J6qCAHobtLYTcWuKbuJDBg_oBkTz5opM/preview", img: "https://noticias.animeonegai.com/wp-content/uploads/2022/09/Katekyo-Hitman-Reborn-anime-min-2.jpg" },
+    { title: "Episódio 29", link: "https://drive.google.com/file/d/1CyG_beFeetT4CDfAU1779eNhRbuMm5Ap/preview", img: "https://noticias.animeonegai.com/wp-content/uploads/2022/09/Katekyo-Hitman-Reborn-anime-min-2.jpg" },
+    { title: "Episódio 30", link: "https://drive.google.com/file/d/1uDhsjFF0zzuUePAEeTgJuE06mc3EuSUF/preview", img: "https://noticias.animeonegai.com/wp-content/uploads/2022/09/Katekyo-Hitman-Reborn-anime-min-2.jpg" },
+    
 
     
 ];
