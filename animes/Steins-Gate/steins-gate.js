@@ -22,12 +22,29 @@ const episodios = [
     { title: "T1 Episódio 20 ", link: "https://drive.google.com/file/d/1M8z66-uPi_NUg20jwco_6ios_NS8d-fT/preview", img: "https://m.media-amazon.com/images/S/pv-target-images/bd78eabf47823f52eb98d2a89fca34cdb9dacd39cacc9465f2f811e05cc8ac45.jpg" },
     { title: "T1 Episódio 21 ", link: "https://drive.google.com/file/d/1anOBrRsesauguD4fE9FZYhOP53TtZKiU/preview", img: "https://m.media-amazon.com/images/S/pv-target-images/bd78eabf47823f52eb98d2a89fca34cdb9dacd39cacc9465f2f811e05cc8ac45.jpg" },
     { title: "T1 Episódio 22 ", link: "https://drive.google.com/file/d/1WXoYB8UWICjVphxrsC1mh9Z3jVECNVBv/preview", img: "https://m.media-amazon.com/images/S/pv-target-images/bd78eabf47823f52eb98d2a89fca34cdb9dacd39cacc9465f2f811e05cc8ac45.jpg" },
-    { title: "T1 ESPECIAL 22 ", link: "----------------", img: "https://m.media-amazon.com/images/S/pv-target-images/bd78eabf47823f52eb98d2a89fca34cdb9dacd39cacc9465f2f811e05cc8ac45.jpg" },
+    { title: "T1 ESPECIAL 22 ", link: "https://drive.google.com/file/d/1R75k1Zo32UNm5FaofdGyOZ3tULdx0YrE/preview", img: "https://m.media-amazon.com/images/S/pv-target-images/bd78eabf47823f52eb98d2a89fca34cdb9dacd39cacc9465f2f811e05cc8ac45.jpg" },
     { title: "T1 Episódio 23 ", link: "https://drive.google.com/file/d/19xNuz3n1d-hXZ-fwE16vvdA-xYmyFYMM/preview", img: "https://m.media-amazon.com/images/S/pv-target-images/bd78eabf47823f52eb98d2a89fca34cdb9dacd39cacc9465f2f811e05cc8ac45.jpg" },
     { title: "T1 Episódio 24", link: "https://drive.google.com/file/d/1biqnv8vr-BzNFTpy9lQ8xnDFZj9azf3w/preview", img: "https://m.media-amazon.com/images/S/pv-target-images/bd78eabf47823f52eb98d2a89fca34cdb9dacd39cacc9465f2f811e05cc8ac45.jpg" },
     { title: "T1 Episódio 25 ", link: "https://drive.google.com/file/d/1xIutRNcdmIXtVUYINhElLyRz45sVcRN2/preview", img: "https://m.media-amazon.com/images/S/pv-target-images/bd78eabf47823f52eb98d2a89fca34cdb9dacd39cacc9465f2f811e05cc8ac45.jpg" },
-    { title: "T2 Episódio 01 ", link: "https://drive.google.com/file/d/1xIutRNcdmIXtVUYINhElLyRz45sVcRN2/preview", img: "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/411e752336bd55d33c2bf1ead2fddef9.jpg" },
-   
+    { title: "T2 Episódio 01 ", link: "https://drive.google.com/file/d/1teEPU8fxOuA8988IkAl8KHiZfsxlO5-S/preview", img: "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/411e752336bd55d33c2bf1ead2fddef9.jpg" },
+    { title: "T2 Episódio 02 ", link: "https://drive.google.com/file/d/1pmB6O0ScAYSLJXeRcJ3pnX4ftavOeoHy/preview", img: "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/411e752336bd55d33c2bf1ead2fddef9.jpg" },
+    { title: "T2 Episódio 03 ", link: "https://drive.google.com/file/d/1zIMRMfyPK7-QvR-GoDKVB4PT0uL9x72P/preview", img: "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/411e752336bd55d33c2bf1ead2fddef9.jpg" }, 
+    { title: "T2 Episódio 04 ", link: "https://drive.google.com/file/d/1XlE-g4-313N3to3eK14-KXUGBx6TTaUr/preview", img: "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/411e752336bd55d33c2bf1ead2fddef9.jpg" },
+    { title: "T2 Episódio 05 ", link: "https://drive.google.com/file/d/1AcX854fPR1HFiBLrLfWHH_qtsHarPdPc/preview", img: "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/411e752336bd55d33c2bf1ead2fddef9.jpg" },
+    { title: "T2 Episódio 06 ", link: "https://drive.google.com/file/d/1bknnV0nMdtf-97KSMl6ac6X_pyWczRy7/preview", img: "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/411e752336bd55d33c2bf1ead2fddef9.jpg" },
+    { title: "T2 Episódio 07 ", link: "https://drive.google.com/file/d/109Zhv59On4uw0T_HBiGTADEWvoHi9254/preview", img: "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/411e752336bd55d33c2bf1ead2fddef9.jpg" },
+    { title: "T2 Episódio 08 ", link: "https://drive.google.com/file/d/18iG2tiG5Cnhc0kgFQIqjRiUTNaFgo14y/preview", img: "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/411e752336bd55d33c2bf1ead2fddef9.jpg" },
+    { title: "T2 Episódio 09 ", link: "https://drive.google.com/file/d/16ZNERJotIWvakYMQr0mkGdOVlSRbyKhP/preview", img: "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/411e752336bd55d33c2bf1ead2fddef9.jpg" },
+    { title: "T2 Episódio 10 ", link: "https://drive.google.com/file/d/1Om0UHLtUqPBn58wlefDRnsQL8Yp7bnkK/preview", img: "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/411e752336bd55d33c2bf1ead2fddef9.jpg" },
+    
+
+
+
+
+
+
+
+
 ];
 
 // Função para gerar os episódios
