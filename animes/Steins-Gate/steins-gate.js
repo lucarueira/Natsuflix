@@ -36,13 +36,20 @@ const episodios = [
     { title: "T2 Episódio 08 ", link: "https://drive.google.com/file/d/18iG2tiG5Cnhc0kgFQIqjRiUTNaFgo14y/preview", img: "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/411e752336bd55d33c2bf1ead2fddef9.jpg" },
     { title: "T2 Episódio 09 ", link: "https://drive.google.com/file/d/16ZNERJotIWvakYMQr0mkGdOVlSRbyKhP/preview", img: "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/411e752336bd55d33c2bf1ead2fddef9.jpg" },
     { title: "T2 Episódio 10 ", link: "https://drive.google.com/file/d/1Om0UHLtUqPBn58wlefDRnsQL8Yp7bnkK/preview", img: "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/411e752336bd55d33c2bf1ead2fddef9.jpg" },
+    { title: "T2 Episódio 11 ", link: "https://drive.google.com/file/d/1ThGgVBNKWxvCgw0BU9Nly3O7BKIkw17_/preview", img: "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/411e752336bd55d33c2bf1ead2fddef9.jpg" },
+    { title: "T2 Episódio 12 ", link: "https://drive.google.com/file/d/1r7dMyAtKosezqqOpEEG6XzLihCKxDscE/preview", img: "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/411e752336bd55d33c2bf1ead2fddef9.jpg" },
+    { title: "T2 Episódio 13 ", link: "https://drive.google.com/file/d/1Zp-BoMu3WB5S5cjVeLLcSmGx0IcZ7c4H/preview", img: "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/411e752336bd55d33c2bf1ead2fddef9.jpg" },
+    { title: "T2 Episódio 14 ", link: "https://drive.google.com/file/d/1__mq1sBTGXqV5DXq8am0ZL8zI83mr7Ob/preview", img: "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/411e752336bd55d33c2bf1ead2fddef9.jpg" },
+    { title: "T2 Episódio 15", link: "https://drive.google.com/file/d/1nzRJCGUzu9TaGMvCJ-i-OHx7T-Rs4-rb/preview", img: "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/411e752336bd55d33c2bf1ead2fddef9.jpg" },
+    { title: "T2 Episódio 16 ", link: "https://drive.google.com/file/d/1Oa4UFVXd4PDfX89y_aLr7tTKTz6xwk8B/preview", img: "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/411e752336bd55d33c2bf1ead2fddef9.jpg" },
+    { title: "T2 Episódio 17 ", link: "https://drive.google.com/file/d/1q_QExAD9FdtGbHbFXGelspEe6EOsmSu7/preview", img: "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/411e752336bd55d33c2bf1ead2fddef9.jpg" },
+    { title: "T2 Episódio 18 ", link: "https://drive.google.com/file/d/1udDbJ0QSDX3Uyu-h36s6qW-iNavstAMd/preview", img: "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/411e752336bd55d33c2bf1ead2fddef9.jpg" },
+    { title: "T2 Episódio 19 ", link: "https://drive.google.com/file/d/1-LRao5myVxAehrCddomU-b28UJBIE_on/preview", img: "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/411e752336bd55d33c2bf1ead2fddef9.jpg" },
+    { title: "T2 Episódio 20 ", link: "https://drive.google.com/file/d/1ajsaR3mhupyXb0P5QUaVSbJ412kbtK7i/preview", img: "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/411e752336bd55d33c2bf1ead2fddef9.jpg" },
+    { title: "T2 Episódio 21 ", link: "https://drive.google.com/file/d/1bAX2bxL6ykYhSPn329Fvzm3hs1Nf5sHx/preview", img: "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/411e752336bd55d33c2bf1ead2fddef9.jpg" },
+    { title: "T2 Episódio 22 ", link: "https://drive.google.com/file/d/1fOuiZswnc2bv0teVyOrbKc8c3CrxiNWy/preview", img: "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/411e752336bd55d33c2bf1ead2fddef9.jpg" },
+    { title: "T2 Episódio 23 ", link: "https://drive.google.com/file/d/1bqT_VYoqxy6qR3BuTO4mJVNOJM6Ly8-r/preview", img: "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/411e752336bd55d33c2bf1ead2fddef9.jpg" },
     
-
-
-
-
-
-
 
 
 ];
