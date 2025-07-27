@@ -12,6 +12,20 @@ const episodios = [
     { title: "Episódio 10 ", link: "https://drive.google.com/file/d/1B4c4QaSUhtQbEE7pHNzbETSZ7edeNzpi/preview", img: "https://blacknerdproblems.com/wp-content/uploads/2023/10/TheApothecaryDiaries_16x9_1920x1080.png" },
     { title: "Episódio 11 ", link: "https://drive.google.com/file/d/16ElLgrWeJisgu-X9Z1QwkSQRfiWPTYkw/preview", img: "https://blacknerdproblems.com/wp-content/uploads/2023/10/TheApothecaryDiaries_16x9_1920x1080.png" },
     { title: "Episódio 12 ", link: "https://drive.google.com/file/d/1IuEnUbWLo7OU1swChpfQPidqHGKKCh21/preview", img: "https://blacknerdproblems.com/wp-content/uploads/2023/10/TheApothecaryDiaries_16x9_1920x1080.png" },
+    { title: "Episódio 13 ", link: "https://drive.google.com/file/d/131d9WBHxB3OUdjeN-XeBZu1xwI_6c0pp/preview", img: "https://blacknerdproblems.com/wp-content/uploads/2023/10/TheApothecaryDiaries_16x9_1920x1080.png" },
+    { title: "Episódio 14 ", link: "https://drive.google.com/file/d/1tuoUh9CONNnLCQonQNCn5X0b4F3RI4K0/preview", img: "https://blacknerdproblems.com/wp-content/uploads/2023/10/TheApothecaryDiaries_16x9_1920x1080.png" },
+    { title: "Episódio 15 ", link: "https://drive.google.com/file/d/1Ouzq1ATlbgAXp1ZXHRUjK2_UgOKpLcCY/preview", img: "https://blacknerdproblems.com/wp-content/uploads/2023/10/TheApothecaryDiaries_16x9_1920x1080.png" },
+    { title: "Episódio 16 ", link: "https://drive.google.com/file/d/1iM5OF83b5eEXe7p6WC9Sb87G28FyjN8p/preview", img: "https://blacknerdproblems.com/wp-content/uploads/2023/10/TheApothecaryDiaries_16x9_1920x1080.png" },
+    { title: "Episódio 17 ", link: "https://drive.google.com/file/d/1AcS-p5qvuFBdpWpvuZJ4l_58hpmaAd77/preview", img: "https://blacknerdproblems.com/wp-content/uploads/2023/10/TheApothecaryDiaries_16x9_1920x1080.png" },
+    { title: "Episódio 18 ", link: "https://drive.google.com/file/d/1BYPj4HhDMfa5JQjW9kdHuzfMED8YFqNE/preview", img: "https://blacknerdproblems.com/wp-content/uploads/2023/10/TheApothecaryDiaries_16x9_1920x1080.png" },
+    { title: "Episódio 19 ", link: "https://drive.google.com/file/d/1sn-7YRsmnlbRKS8fCDqMGOBlcGGFgVfs/preview", img: "https://blacknerdproblems.com/wp-content/uploads/2023/10/TheApothecaryDiaries_16x9_1920x1080.png" },
+    { title: "Episódio 20 ", link: "https://drive.google.com/file/d/1_e9R5YDm74ic88mjGNlGfJA9BeiQxFi_/preview", img: "https://blacknerdproblems.com/wp-content/uploads/2023/10/TheApothecaryDiaries_16x9_1920x1080.png" },
+    { title: "Episódio 21 ", link: "https://drive.google.com/file/d/1YK8-uoj3VqUQPPp5Di8wRDzENxNlpFqf/preview", img: "https://blacknerdproblems.com/wp-content/uploads/2023/10/TheApothecaryDiaries_16x9_1920x1080.png" },
+    { title: "Episódio 22 ", link: "https://drive.google.com/file/d/1vWFr1nxPSDvsEV0-h3hLmLd_Sj9rg6ji/preview", img: "https://blacknerdproblems.com/wp-content/uploads/2023/10/TheApothecaryDiaries_16x9_1920x1080.png" },
+    { title: "Episódio 23 ", link: "https://drive.google.com/file/d/1maoeTMd25knNIsP39ChX_TIfX2T8v9P7/preview", img: "https://blacknerdproblems.com/wp-content/uploads/2023/10/TheApothecaryDiaries_16x9_1920x1080.png" },
+    { title: "Episódio 24 ", link: "https://drive.google.com/file/d/1EW8yjwMZc76HZS9JK2XdUQuqR_rEBGPl/preview", img: "https://blacknerdproblems.com/wp-content/uploads/2023/10/TheApothecaryDiaries_16x9_1920x1080.png" },
+    
+
 ];
 
 // Função para gerar os episódios
